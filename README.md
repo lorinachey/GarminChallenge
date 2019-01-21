@@ -8,8 +8,10 @@ order from left to right. See Graph class for example.
 
 ## Instructions for Running
 Download the two files Graph.java and Node.java and keep them in the same directory.
+
 If on Windows, hold shift and right click in the directory where the two files are stored.
-Select "Open PowerShell window here..." from the drop down.
+Select "Open PowerShell window here..." from the drop down. If on Linux/UNIX based systems,
+right click and select the option to open terminal here.
 
 Type the following to compile the program: 
 `javac Graph.java`
