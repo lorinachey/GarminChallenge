@@ -52,6 +52,10 @@ public class Graph {
 	*/
 	public boolean findNode(Node node) {
 		boolean isFound = false;
+
+		if (node == null) {
+			return isFound;
+		}
 		
 		for (int i = 0; i < graph.length; i++) {
 			System.out.print(graph[i].getName());
